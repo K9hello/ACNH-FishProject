@@ -1,0 +1,44 @@
+Animal Crossing New Horizons fish
+
+create a program that allows you to look up a specific fish and get information about that fish including the spawn rates and the best time and month to fish for them(when the spawn pool is the smallest)
+
+use html, js, css, and sql to create something similar to the capstone project
+
+//list of fish names
+//input name (shows list and narrows as you type)
+Receive name, location, time, size, and breakdown of % for each active month
+% for that size to appear
+% for fish within that size
+% for fish overall
+
+Database tables
+
+Fish:
+	ID, name, location, active time, active months, size
+Spawn rates:
+	SpawnID, FishID, spawn rates for each time slot
+
+//protect from sql injection
+//filter times on server
+make frontend in angular
+
+select a fish
+	//select which hemisphere
+	//details for that fish
+	//all other fish that share an active month and location
+	//all other fish that are active in the same time slot
+	//table showing months
+	//click cell in first months table to select a month
+	//build table showing timeslots for selected month
+	
+
+select a month
+	//show all fish for that month separated by location
+
+
+5- 0-23  all day
+4- 21-4  9PM - 4AM
+3- 9-16  9AM - 4PM
+2- 16-9  4PM - 9AM
+1- 4-21  4AM - 9PM
+0- N/A //only done on alt times
