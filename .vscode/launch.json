@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "addFish.html",
+        "url": "http://localhost:3000/addFish.html",
+        "webRoot": "${workspaceFolder}/frontend"
+      },
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "main.html",
+        "url": "http://localhost:3000/main.html",
+        "webRoot": "${workspaceFolder}/frontend"
+      },
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "month.html",
+        "url": "http://localhost:3000/month.html",
+        "webRoot": "${workspaceFolder}/frontend"
+      }
+    ]
+  }
+  
