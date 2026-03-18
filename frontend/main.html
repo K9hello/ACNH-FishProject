@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>ACNH Fish</title>
+
+        <!-------------------------------------------------------------
+        Author: Arnett, Jeremy
+        FORMAT - Shift + ALT + F to format
+        ----------------------------------------------------------------->
+
+    <script src="main.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="addfish.css">
+
+</head>
+
+<body>
+    <button onclick="window.location.href = 'http://localhost:3000/month.html'">Search by month</button>
+
+    <form id="fishFinder">
+        <input id="selectedFish" list="FishList" required>
+        <datalist id="FishList">
+        </datalist>
+
+        <input type="radio" id="NH" name="hemisphere" value="NH" checked>
+        <label for="NH">Northern Hemisphere</label>
+        <input type="radio" id="SH" name="hemisphere" value="SH">
+        <label for="SH">Southern Hemisphere</label>
+
+        <button id="Submit">Submit</button>
+    </form>
+
+    <table id="fishDetailsTable"></table>
+    <table id="fishMonthsTable"></table>
+    <table id="relatedFishTable"></table>
+    <table id="fishSharedTimesTable"></table>
+    <table id="fishSharedMonthsTable"></table>
+    
+    <p></p>
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>ACNH Fish</title>
+
+    <!-------------------------------------------------------------
+        Author: Arnett, Jeremy
+        FORMAT - Shift + ALT + F to format
+        ----------------------------------------------------------------->
+
+    <script src="addfish.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="addfish.css">
+</head>
+
+<body>
+
+    <form id="addFish">
+        <label for="name">Name:</label>
+        <input id="name" required>
+
+        <label for="size">Size</label>
+        <select id="size" required>
+            <option value="Tiny">Tiny</option>
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+            <option value="Very Large">Very Large</option>
+            <option value="Very Large (Finned)">Very Large (Finned)</option>
+            <option value="Huge">Huge</option>
+            <option value="Long & Thin">Long & Thin</option>
+        </select>
+
+        <label for="location">Location</label>
+        <select id="location" required>
+            <option value="River">River</option>
+            <option value="Pond">Pond</option>
+            <option value="Sea">Sea</option>
+            <option value="Sea (Pier)">Sea (Pier)</option>
+            <option value="River (clifftop)">River (Clifftop)</option>
+            <option value="River (mouth)">River (Mouth)</option>
+            <option value="Sea (raining)">Sea (Raining)</option>
+        </select>
+
+        <label for="startTime1">Active Time</label>
+        <input id="startTime1" type="number" min="0" max="23" value="0">
+        <span>-</span>
+        <input id="endTime1" type="number" min="0" max="23" value="23">
+
+        <label for="startTime2">Active Time 2</label>
+        <input id="startTime2" type="number" min="0" max="23" value="0">
+        <span>-</span>
+        <input id="endTime2" type="number" min="0" max="23" value="0">
+
+        <table>
+            <tr>
+                <th></th>
+                <th>J</th>
+                <th>F</th>
+                <th>M</th>
+                <th>A</th>
+                <th>M</th>
+                <th>J</th>
+                <th>J</th>
+                <th>A</th>
+                <th>S</th>
+                <th>O</th>
+                <th>N</th>
+                <th>D</th>
+            </tr>
+            <tr>
+                <th>NH</th>
+                <td>
+                    <input type="checkbox" id="NH1" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="NH2" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="NH3" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="NH4" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="NH5" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="NH6" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="NH7" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="NH8" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="NH9" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="NH10" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="NH11" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="NH12" checked>
+                </td>
+            </tr>
+            <tr>
+                <th>SH</th>
+                <td>
+                    <input type="checkbox" id="SH1" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="SH2" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="SH3" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="SH4" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="SH5" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="SH6" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="SH7" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="SH8" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="SH9" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="SH10" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="SH11" checked>
+                </td>
+                <td>
+                    <input type="checkbox" id="SH12" checked>
+                </td>
+            </tr>
+        </table>
+
+        <p>.</p><p>.</p><p>.</p>
+        <button id="Submit">Submit</button>
+    </form>
+
+    <table id="fishTable">
+
+    </table>
+</body>
+
+</html>
